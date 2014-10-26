@@ -35,7 +35,7 @@ Super simple jpeg glitcher.
 
 other potential glitch algorithms:
 
-0. Benedict
-0. Poach
-0. HardBoil
-0. Omelette
+* Benedict
+* Poach
+* HardBoil
+* Omelette
