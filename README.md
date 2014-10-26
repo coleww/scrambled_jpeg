@@ -18,18 +18,25 @@ Super simple jpeg glitcher.
 0. ETC.
 0. When it runs out of lines to write, it writes the last line and closes the new file.
 
-## Installation
+## GO TO THE GEM STORE
 
     $ gem install scrambled_jpeg
 
-## CLI Usage
+## ITS EASY LIKE SUNDAY MORNING
+
+    # CLI USE
+    $ scrambled_jpeg [FILENAME] ([GRANULARITY])
 
     # granularity defaults to 5.
-    $ scrambled_jpeg [FILENAME] ([GRANULARITY])
     $ scrambled_jpeg example.jpg
 
-    # numbers have differing effects depending on file size and stuff...sometimes it breaks the image...
+    # numbers have differing effects depending on file size and stuff...
     $ scrambled_jpeg example.jpg 50
+    # sometimes it breaks the image...
+
+    # CAN BE USED IN RUBY TOOOOOOO
+    IRB(...)> ScrambledJpeg.scramble FILENAME, GRANULARITY=5
+
 
 ## THE FUTURE
 
