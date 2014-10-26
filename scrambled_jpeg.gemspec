@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cole Willsea"]
   spec.email         = ["coleww@gmail.com"]
   spec.summary       = %q{a ruby gem for scrambling jpeg/jpg files as though there were eggs.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/coleww/scrambled_jpeg"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
