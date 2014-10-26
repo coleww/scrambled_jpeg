@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cole Willsea"]
   spec.email         = ["coleww@gmail.com"]
   spec.summary       = %q{a ruby gem for scrambling jpeg/jpg files as though there were eggs.}
-  spec.description   = %q{lalala}
   spec.homepage      = ""
   spec.license       = "MIT"
 
