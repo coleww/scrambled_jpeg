@@ -2,7 +2,7 @@
 
 Super simple jpeg glitcher.
 
-![example.jpg glitched at various granularities ranging from 5-75]('./example.gif')
+![example.jpg glitched at various granularities ranging from 5-75](./example.gif)
 
 [Here is a pretty good tutorial](http://www.docpop.org/2014/01/a-glitch-primer-editing-image-files-with-text-editors/) that covers the logic behind this and [this looks like a good list](http://phillipstearns.wordpress.com/glitch-art-resources/) of resources for other forms of glitch art.
 
