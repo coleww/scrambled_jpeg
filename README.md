@@ -4,6 +4,8 @@ Super simple jpeg glitcher.
 
 ![example.jpg glitched at various granularities ranging from 5-75]('./example.gif')
 
+[Here is a pretty good tutorial](http://www.docpop.org/2014/01/a-glitch-primer-editing-image-files-with-text-editors/) that covers the logic behind this and [this looks like a good list](http://phillipstearns.wordpress.com/glitch-art-resources/) of resources for other forms of glitch art.
+
 ### SCRAMBLE ALGORITHM
 
 0. Reads a .jpg/.jpeg file
@@ -20,7 +22,7 @@ Super simple jpeg glitcher.
 
     $ gem install scrambled_jpeg
 
-## Usage
+## CLI Usage
 
     # granularity defaults to 5.
     $ scrambled_jpeg [FILENAME] ([GRANULARITY])
@@ -29,11 +31,9 @@ Super simple jpeg glitcher.
     # numbers have differing effects depending on file size and stuff...sometimes it breaks the image...
     $ scrambled_jpeg example.jpg 50
 
-
 ## THE FUTURE
 
 other potential glitch algorithms:
-
 
 0. Benedict
 0. Poach
