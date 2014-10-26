@@ -9,19 +9,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cole Willsea"]
   spec.email         = ["coleww@gmail.com"]
   spec.summary       = %q{a ruby gem for scrambling jpeg/jpg files as though there were eggs.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{lalala}
   spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
-  spec.executables   = ['scrambled_jpeg']
+  spec.executables   = ['scrambled_jpeg.rb']
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
   spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'test_construct'
-  spec.add_development_dependency 'minitest'
-  spec.add_development_dependency 'differ'
 end
